@@ -59,6 +59,19 @@ body {
   padding-bottom: 94px;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* --------------------------- HEADER ------------------------ */
 .header {
   border-bottom: 1px solid #ececec;
@@ -364,7 +377,7 @@ body {
   height: 92px;
   border: 1px solid var(--link-grey);
   border-radius: 4px;
-  /* background-color: var(--background-link-grey); */
+  background-color: var(--background-link-grey);
 
   display: flex;
   align-items: center;
