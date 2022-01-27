@@ -76,8 +76,7 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
 
-  padding-top: 24px;
-  padding-bottom: 25px;
+  
 }
 
 .header-wrap,
@@ -97,6 +96,8 @@ body {
 
 .header-logo {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .nav-menu-item:not(:last-child) {
@@ -377,7 +378,6 @@ body {
   height: 92px;
   border: 1px solid var(--link-grey);
   border-radius: 4px;
-  background-color: var(--background-link-grey);
 
   display: flex;
   align-items: center;
