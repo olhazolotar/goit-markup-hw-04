@@ -33,6 +33,10 @@ img {
   display: block;
 }
 
+span {
+  display: inline-block;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
@@ -54,6 +58,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -74,9 +79,7 @@ body {
 
 /* --------------------------- HEADER ------------------------ */
 .header {
-  border-bottom: 1px solid #ececec;
-
-  
+  border-bottom: 1px solid #ececec; 
 }
 
 .header-wrap,
@@ -111,8 +114,6 @@ body {
 }
 
 .header-contact-item {
-  display: flex;
-  align-items: center;
   color: currentColor;
   font-size: 32px;
 }
@@ -124,7 +125,7 @@ body {
 .nav-menu-link {
   display: flex;
   align-items: center;
-
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -139,6 +140,7 @@ body {
 
 .header-contact-icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .nav-menu-link.contact-link {
@@ -150,10 +152,6 @@ body {
 .accent,
 .nav-menu-link.current {
   color: var(--accent-color);
-}
-
-.header-contact-icon {
-  margin-right: 10px;
 }
 
 /* ------------------------------------- HERO ------------------------------------ */
@@ -532,7 +530,8 @@ body {
   display: block;
 }
 
-.portfolio-card-link:hover {
+.portfolio-card-link:hover,
+.portfolio-card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
