@@ -156,6 +156,10 @@ body {
 
 /* ------------------------------------- HERO ------------------------------------ */
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+
   background-color: var(--backgraund-first-color);
 
   padding-top: 200px;
@@ -437,8 +441,6 @@ body {
 .footer-contact-link:hover,
 .footer-contact-link:focus {
   color: var(--accent-color);
-}
-.footer-social-wrap {
 }
 
 .footer-cosial-items {
